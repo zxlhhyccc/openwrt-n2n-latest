@@ -1,7 +1,7 @@
 #
 # Copyright (C) 2019 - ntop.org and contributors
 #
-# Rewrited by Kunlun Huang <i@vnf.cc>
+# Rewrited by Kunlun Huang <hkl@duck.com>
 #
 
 include $(TOPDIR)/rules.mk
@@ -85,3 +85,4 @@ endef
 
 $(eval $(call BuildPackage,n2n-edge))
 $(eval $(call BuildPackage,n2n-supernode))
+
